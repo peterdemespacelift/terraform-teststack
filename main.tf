@@ -24,5 +24,5 @@ resource "aws_ssm_parameter" "testparam" {
 
 resource "random_password" "password" {
   count = 2
-  length = 3
+  length = 4
 }
