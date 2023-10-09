@@ -1,4 +1,4 @@
 resource "random_password" "password" {
-  count = 3
+  count = 4
   length = 7
 }
